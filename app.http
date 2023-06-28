@@ -1,0 +1,11 @@
+POST http://localhost:3000/admin/add
+Content-Type: application/json
+
+{
+    "number":1234567899
+}
+
+###
+GET http://localhost:3000/login/1234567898
+
+
